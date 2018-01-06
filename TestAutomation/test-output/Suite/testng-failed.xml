@@ -3,6 +3,20 @@
 <suite thread-count="-1" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test name="Test(failed)">
     <classes>
+      <class name="testcases.CreateAProfile">
+        <methods>
+          <include name="createProfile"/>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- testcases.CreateAProfile -->
+      <class name="testcases.AddItemToCart">
+        <methods>
+          <include name="addItemToCart"/>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- testcases.AddItemToCart -->
       <class name="testcases.AddCasualDressItemToCart">
         <methods>
           <include name="closeBrowser"/>

@@ -5,8 +5,9 @@
     <classes>
       <class name="testcases.CreateAProfile"/>
       <class name="testcases.AddItemToCart"/>
+      <class name="testcases.OpenBrowserAndClose"/>
       <class name="testcases.AddCasualDressItemToCart"/>
-      
+      <class name="testcases.RegisterAndLogout"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
