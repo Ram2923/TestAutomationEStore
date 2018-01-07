@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2018-01-07T09:35:25Z" name="Default suite" finished-at="2018-01-07T09:35:53Z" duration-ms="28061">
+  <suite started-at="2018-01-07T09:52:01Z" name="Default suite" finished-at="2018-01-07T09:52:24Z" duration-ms="23505">
     <groups>
     </groups>
-    <test started-at="2018-01-07T09:35:25Z" name="Default test" finished-at="2018-01-07T09:35:53Z" duration-ms="28061">
+    <test started-at="2018-01-07T09:52:01Z" name="Default test" finished-at="2018-01-07T09:52:24Z" duration-ms="23505">
       <class name="dbValidationCases.CreateProfileAndValidateDB">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:dbValidationCases.CreateProfileAndValidateDB@73ee04c8]" started-at="2018-01-07T15:05:25Z" name="openBrowser" finished-at="2018-01-07T15:05:33Z" duration-ms="7938" status="PASS">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:dbValidationCases.CreateProfileAndValidateDB@73ee04c8]" started-at="2018-01-07T15:22:01Z" name="openBrowser" finished-at="2018-01-07T15:22:09Z" duration-ms="8461" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method signature="createProfile()[pri:0, instance:dbValidationCases.CreateProfileAndValidateDB@73ee04c8]" started-at="2018-01-07T15:05:33Z" name="createProfile" finished-at="2018-01-07T15:05:51Z" duration-ms="18026" status="PASS">
+        <test-method signature="createProfile()[pri:0, instance:dbValidationCases.CreateProfileAndValidateDB@73ee04c8]" started-at="2018-01-07T15:22:09Z" name="createProfile" finished-at="2018-01-07T15:22:22Z" duration-ms="13035" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createProfile -->
-        <test-method signature="dnValidation()[pri:0, instance:dbValidationCases.CreateProfileAndValidateDB@73ee04c8]" started-at="2018-01-07T15:05:51Z" name="dnValidation" finished-at="2018-01-07T15:05:52Z" duration-ms="1769" status="PASS">
+        <test-method signature="dnValidation()[pri:0, instance:dbValidationCases.CreateProfileAndValidateDB@73ee04c8]" started-at="2018-01-07T15:22:22Z" name="dnValidation" finished-at="2018-01-07T15:22:24Z" duration-ms="1666" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dnValidation -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:dbValidationCases.CreateProfileAndValidateDB@73ee04c8]" started-at="2018-01-07T15:05:52Z" name="closeBrowser" finished-at="2018-01-07T15:05:53Z" duration-ms="300" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:dbValidationCases.CreateProfileAndValidateDB@73ee04c8]" started-at="2018-01-07T15:22:24Z" name="closeBrowser" finished-at="2018-01-07T15:22:24Z" duration-ms="304" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->

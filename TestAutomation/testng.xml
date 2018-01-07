@@ -4,8 +4,12 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="testcases.CreateAProfile"/>
-      
-      
+      <class name="dbValidationCases.CreateProfileAndValidateDB"/>
+      <class name="generic.MouseHover"/>
+      <class name="testcases.AddItemToCart"/>
+      <class name="testcases.OpenBrowserAndClose"/>
+      <class name="testcases.AddCasualDressItemToCart"/>
+      <class name="testcases.RegisterAndLogout"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
