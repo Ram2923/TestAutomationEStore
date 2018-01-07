@@ -63,7 +63,8 @@ public class RegisterAndLogout extends BaseClass
 		}
 		
 		MyAccount myaccount = new MyAccount (driver);
-		myaccount.clickSignoutLink();
+		myaccount.clickSignoutLink("LogoutLink");
+		myaccount.clickSignoutLink("MyPersonalInformationLink");
 
 		
 		

@@ -41,8 +41,8 @@ public class CreateAProfile extends BaseClass
 		
 		String path = "./ExcelSheet/TestDataAutomation.xlsx";
 		String sheet = "Register";
-		String Fname = ReadFromExcel.readData(path, sheet, 1, 0);
-		String Lname = ReadFromExcel.readData(path, sheet, 1, 1);
+		String Fname = ReadFromExcel.readData(path, sheet, 2, 0);
+		String Lname = ReadFromExcel.readData(path, sheet, 2, 1);
 		String pwd = ReadFromExcel.readData(path, sheet, 1, 2);
 		String addFname = ReadFromExcel.readData(path, sheet, 1, 3);
 		String addLname = ReadFromExcel.readData(path, sheet, 1, 4);

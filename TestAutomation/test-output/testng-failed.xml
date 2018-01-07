@@ -1,29 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="-1" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test name="Test(failed)">
+<suite thread-count="-1" name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test name="Default test(failed)">
     <classes>
       <class name="testcases.CreateAProfile">
         <methods>
           <include name="createProfile"/>
-          <include name="closeBrowser"/>
           <include name="openBrowser"/>
         </methods>
       </class> <!-- testcases.CreateAProfile -->
-      <class name="testcases.AddItemToCart">
-        <methods>
-          <include name="addItemToCart"/>
-          <include name="closeBrowser"/>
-          <include name="openBrowser"/>
-        </methods>
-      </class> <!-- testcases.AddItemToCart -->
-      <class name="testcases.AddCasualDressItemToCart">
-        <methods>
-          <include name="closeBrowser"/>
-          <include name="openBrowser"/>
-          <include name="addCasualDressItem"/>
-        </methods>
-      </class> <!-- testcases.AddCasualDressItemToCart -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

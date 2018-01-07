@@ -65,5 +65,6 @@
 	<classpathentry kind="lib" path="E:/SeleniumRelatedFiles/poi-3.17/poi-scratchpad-3.17.jar"/>
 	<classpathentry kind="lib" path="E:/SeleniumRelatedFiles/poi-3.17/ooxml-lib/xmlbeans-2.6.0.jar"/>
 	<classpathentry kind="lib" path="E:/SeleniumRelatedFiles/testng-6.8.3.jar"/>
+	<classpathentry kind="lib" path="E:/SeleniumRelatedFiles/jdbc-oracle.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
