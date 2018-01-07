@@ -9,6 +9,7 @@
       <class name="testcases.AddItemToCart"/>
       <class name="testcases.OpenBrowserAndClose"/>
       <class name="testcases.AddCasualDressItemToCart"/>
+      <class name="generic.MouseHover"/>
       
     </classes>
   </test> <!-- Test -->
