@@ -27,7 +27,9 @@ public class DBConnection
 		while (result.next())
 		{
 			firstname = result.getString(1);
-		}		
+		}	
+		
+		System.out.println("Test");
 		 
 		
 	}
